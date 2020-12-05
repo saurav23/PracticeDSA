@@ -60,8 +60,11 @@ int main()
     // int arr2[n+2] = {5}  ;
     // cout << arr2[n+2] << endl ;
 
-    int arr[] = {1,2} ;
-    cout << sizeof(arr) <<endl;
-    cout << sizeof(arr[0]) <<endl;
+    int arr[] = {1, 2};
+    cout << sizeof(arr) << endl;
+    cout << sizeof(arr[0]) << endl;
 
+    // ---------------
+    cout << endl;
+    return 0;
 }

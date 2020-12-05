@@ -38,6 +38,8 @@ int main()
     }
     cout << endl;
 
+    cout << "git";
+
     // ----------------------------
     cout << endl;
     return 0;
