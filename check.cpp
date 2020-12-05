@@ -47,16 +47,21 @@ int main()
 
     // ----------------------------------------
 
-    int n = 5;
-    bool arr[n + 2];
-    arr[1] = {true} ;
-    cout << arr[1] << endl;
-    cout << "done" << endl;
-    cout << arr[n + 2] << endl;
+    // int n = 5;
+    // bool arr[n + 2];
+    // arr[1] = {true} ;
+    // cout << arr[1] << endl;
+    // cout << "done" << endl;
+    // cout << arr[n + 2] << endl;
 
-    bool check = true;
-    cout << check << endl;
+    // bool check = true;
+    // cout << check << endl;
 
-    int arr2[n+2] = {5}  ;
-    cout << arr2[n+2] << endl ;
+    // int arr2[n+2] = {5}  ;
+    // cout << arr2[n+2] << endl ;
+
+    int arr[] = {1,2} ;
+    cout << sizeof(arr) <<endl;
+    cout << sizeof(arr[0]) <<endl;
+
 }
