@@ -53,5 +53,10 @@ node *takeInput()
 int main()
 {
     node *head = takeInput();
-    cout << midPointOfLl(head)  ;
+    node *mid = midPointOfLl(head);
+    cout << mid->data;
+
+    // ---------------------------------------
+    cout << endl;
+    return 0;
 }
