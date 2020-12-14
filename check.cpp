@@ -62,8 +62,10 @@ int main()
 
     int arr[] = {1, 2};
     cout << sizeof(arr) << endl;
-    cout << sizeof(arr[0]) << endl;
+    cout << sizeof(arr[]) << endl;
 
+    cout << arr << endl;
+    cout << arr[0] ;
     // ---------------
     cout << endl;
     return 0;

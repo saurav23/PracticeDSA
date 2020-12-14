@@ -4,7 +4,7 @@ using namespace std;
 #include "node1.cpp"
 
 node* reverseLL(){
-    
+
 }
 
 
@@ -52,5 +52,10 @@ node *takeInputBetter()
 
 // main
 int main(){
+
+    node * head = takeInputBetter() ;
+    printnode(head) ;
+    cout<<endl <<"_______________________________________" ;
+    
 
 }
