@@ -1,10 +1,8 @@
 /*
    Time Complexity = O(N)
    Space Complexity = O(1)
-   
    Where N is the length of the array.
 */
-
 #include <cstdlib>
 
 int segregate(int arr[], int size)
@@ -19,7 +17,6 @@ int segregate(int arr[], int size)
             arr[i] = arr[j];
             arr[j] = temp;
 
-            // increment count of positive integers
             j++;
         }
     }
@@ -29,7 +26,7 @@ int segregate(int arr[], int size)
 
 int findMissingPositive(int arr[], int size)
 {
-    // Mark arr[i] as visited by making arr[arr[i] - 1] negative.
+    
     for (int i = 0; i < size; i++)
     {
         int x = abs(arr[i]);
@@ -39,7 +36,7 @@ int findMissingPositive(int arr[], int size)
         }
     }
 
-    // Return the first index value at which is positive
+    
     for (int i = 0; i < size; i++)
     {
         if (arr[i] > 0)
@@ -53,9 +50,7 @@ int findMissingPositive(int arr[], int size)
 
 int firstMissing(int arr[], int n)
 {
-    // Segregate the array such that positive elements goes to the left side of the
-    // array and negative to the right side.
-    // and return the last index of positive element.
+    
     int index = segregate(arr, n);
 
     return findMissingPositive(arr, index);
