@@ -60,13 +60,37 @@ int main()
     // int arr2[n+2] = {5}  ;
     // cout << arr2[n+2] << endl ;
 
-    int arr[] = {1, 2};
-    cout << sizeof(arr) << endl;
-    cout << sizeof(arr[]) << endl;
+    // int arr[] = {1, 2};
+    // cout << sizeof(arr) << endl;
+    // cout << sizeof(arr[]) << endl;
 
-    cout << arr << endl;
-    cout << arr[0] ;
-    // ---------------
-    cout << endl;
-    return 0;
+    // cout << arr << endl;
+    // cout << arr[0] ;
+    // // ---------------
+    // cout << endl;
+    // return 0;
+
+    // int n = 500 ;
+    // int count = 0 ;
+    // for (int i = n/2; i <= n; i++)
+    // {
+    //     // cout << "go!" <<" " ;
+    //     count++ ;
+    // }
+    // cout << "count:"<<count ;
+
+
+    // //_____________________________________________
+    // cout << endl ;
+    // return 0 ;
+
+    int num1, num2;
+    int sum;
+
+    cout << "Enter Number...."<< endl ;
+    cin>> num1 >> num2 ;
+
+    sum = num1 + num2 ;
+    cout << "Sum of the given numbers is..."<< sum ;
+    
 }
